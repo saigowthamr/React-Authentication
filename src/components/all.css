@@ -1,0 +1,107 @@
+
+
+.signup {
+    max-width: 50rem;
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to 90deg, rgba(25, 10, 233, 0.89) 70%,
+     rgb(8, 30, 233) 30%, transparent), url('../images/owl1.jpg');
+    background-position: right;
+    background-size: cover;
+    padding: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem .4rem black;
+    border-top: 10px solid rgb(9, 32, 122);
+    border-bottom: 10px solid rgb(10, 32, 122);
+    border-left: 10px double rgb(224, 225, 228);
+    border-right: 10px double rgb(224, 225, 228);
+
+}
+
+.signup::after {
+    content: "";
+    position: absolute;
+    height: 60rem;
+    width: 100%;
+    top: 10rem;
+    z-index: -1;
+}
+
+.inp:focus {
+    transform: scale(1.1);
+}
+
+.inp {
+    width: 80%;
+    margin-top: 1rem;
+    padding: 1.2rem;
+    outline: none;
+    font-size: 1.9rem;
+    border: 2px solid rgb(4, 77, 99);
+    border-radius: 1rem;
+    box-shadow: 0 .5rem .4rem black;
+    transition: all .3s;
+}
+
+.inp::placeholder {
+    color: rgb(83, 70, 70);
+    font-size: 1.4rem;
+}
+.btn::before {
+    content: "";
+    height: 3rem;
+    width: 10rem;
+    position: absolute;
+    top: -2rem;
+    left: -.6rem;
+       background-color: rgba(4, 42, 255, 1);
+       border-top: 6px double #dcdbf6;
+       border-left: 6px double #dcdbf6;
+       border-right: 6px double #dcdbf6;
+    box-shadow: 0 4px 4px black;
+}
+
+.btn{
+    width: 10rem;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding: 1.3rem;
+    font-size: 1.5rem;
+    color: rgb(245, 247, 247);
+    outline: none;
+    background-color: rgba(4, 42, 255, 0.836);
+    border-radius: 1rem;
+    border: 6px double rgba(245, 247, 247, 0.856);
+    box-shadow: 0 .5rem .4rem black;
+    transition: all .3s;
+}
+
+.btn:hover{
+       box-shadow: none;
+}
+
+
+
+
+.err{
+    background-color: rgba(219, 6, 6, 0.986);
+    color:white;
+    margin-top: 10rem;
+    padding: 1rem;
+    border-radius: 1rem;
+text-align: center;
+}
+
+
+.signout{
+    margin-top: 7rem;
+    font-size: 5rem;
+    text-align: center;
+}
