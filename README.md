@@ -1,6 +1,6 @@
 # React Authentication Using nodejs
 
-![Preview]('https://github.com/saigowthamr/React-Authentication/blob/master/src/images/reactauth.png')
+![Preview](https://github.com/saigowthamr/React-Authentication/blob/master/src/images/reactauth.png)
 
 
 
